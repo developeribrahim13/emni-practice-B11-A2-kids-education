@@ -57,6 +57,9 @@ header nav ul{
 
 header nav ul li a{
     text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
 }
 
 header nav button{
@@ -75,6 +78,57 @@ header nav .menu{
 }
 
 /* nav section end */
+
+/* banner section start */
+
+header #banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+header #banner .bnr-txt-div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+header #banner .bnr-txt-div h2{
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 61px;
+    color: black;
+}
+
+header #banner .bnr-txt-div p{
+    font-size: 20px;
+    color: black;
+}
+
+header #banner .bnr-txt-div button{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    padding: 10px 47px;
+    border-radius: 12px;
+}
+
+/* banner section end */
+
+
+
+
+
+
+
+
+
 
 
 /* responsive design part */
@@ -104,4 +158,46 @@ header nav .menu{
     }
 
     /* nav section end */
+
+    /* banner section start */
+
+    header #banner{
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    header #banner .bnr-txt-div{
+        text-align: center;
+        justify-content: center;
+        width: 90%;
+        gap: 18px;
+    }
+
+    header #banner .bnr-txt-div h2{
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    header #banner .bnr-txt-div p{
+        font-size: 14px;
+    }
+
+    header #banner .bnr-img-div{
+        display: flex;
+        justify-content: center;
+    }
+
+    header #banner .bnr-img-div img{
+        width: 90%;
+    }
+
+    header #banner .bnr-txt-div button{
+    padding: 8px 25px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 auto;
+}
+    /* banner section end */
 }

@@ -71,6 +71,7 @@ header nav button{
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 header nav .menu{
@@ -117,13 +118,128 @@ header #banner .bnr-txt-div button{
     border: none;
     padding: 10px 47px;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 /* banner section end */
+/* header section end */
 
+/* Curriculum section start */
+main{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+main #curriculum{
+    background-image: url(../assets/bg.png);
+    background-color: #d5d4df17;
+    background-repeat: no-repeat;
+}
 
+main #curriculum .crclm-container{
+    padding: 60px 140px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+}
 
+main #curriculum .crclm-container h2{
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 57.5px;
+    color: black;
+}
+
+main #curriculum .crclm-container .card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:28px;
+}
+
+main #curriculum .crclm-container .card-section .card1,.card2,.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:33px;
+    padding: 52px 40.5px;
+}
+
+main #curriculum .crclm-container .card-section .card1 h3,
+main #curriculum .crclm-container .card-section .card2 h3,
+main #curriculum .crclm-container .card-section .card3 h3{
+    font-size: 24.52px;
+    font-weight: bold;
+    line-height: 30.7px;
+    color: #202020;
+}
+
+main #curriculum .crclm-container .card-section .card1 p,
+main #curriculum .crclm-container .card-section .card2 p,
+main #curriculum .crclm-container .card-section .card3 p{
+    font-size: 15.09;
+    font-weight: 500;
+    line-height: 28.3px;
+    color: #808080;
+}
+
+main #curriculum .crclm-container .card-section .card1 button,
+main #curriculum .crclm-container .card-section .card2 button,
+main #curriculum .crclm-container .card-section .card3 button{
+    font-size: 15.09px;
+    line-height: 28.3px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+main #curriculum .crclm-container .card-section .card1{
+    background: linear-gradient(#DEF5FF,white,white);
+    border-radius: 18.86px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+main #curriculum .crclm-container .card-section .card2{
+    background: linear-gradient(#FFF4DC,white,white);
+    border-radius: 18.86px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+main #curriculum .crclm-container .card-section .card3{
+    background: linear-gradient(#F2E8FF,white,white);
+    border-radius: 18.86px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+main #curriculum .crclm-container .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+main #curriculum .crclm-container .icons .fa-less-than{
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 20px 40px 20px 20px;
+    /* text-align: center; */
+}
+
+main #curriculum .crclm-container .icons .fa-greater-than{
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 20px 40px 20px 20px;
+    text-align: center;
+}
+/* Curriculum section end */
 
 
 
@@ -200,4 +316,28 @@ header #banner .bnr-txt-div button{
     margin: 0 auto;
 }
     /* banner section end */
+    /* header section end */
+
+    /* main section start */
+    /* Curruculum section start */
+
+    /* main{
+        margin: ;
+    } */
+
+    main #curriculum .crclm-container{
+        padding: 30px 20px 0;
+        gap:10px;
+
+    }
+
+    main #curriculum .crclm-container h2{
+            font-size: 24px;
+        }
+
+    main #curriculum .card-section{
+        flex-direction: column;
+    }
+
+    /* Curriculum section end */
 }

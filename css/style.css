@@ -241,6 +241,115 @@ main #curriculum .crclm-container .icons .fa-greater-than{
 }
 /* Curriculum section end */
 
+/* Stories Section start */
+
+main #stories{
+    background-repeat: no-repeat;
+    background: linear-gradient(to top, rgba(255, 166, 0, 0.24), rgba(255, 166, 0, 0.11), #d5d4df21), url(../assets/bg.png);
+    padding: 60px 140px;
+}
+
+main #stories .stories-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+}
+
+main #stories .stories-content h1{
+    font-size: 46px;
+    line-height: 57.5px;
+    font-weight: bold;
+}
+
+main #stories .stories-content .stories-images{
+    display: grid;
+    grid-template-columns: 540px 291px 291px;
+    grid-template-rows:repeat(2,1fr);
+    gap:18px;
+}
+
+main #stories .stories-content .stories-images .large-card{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+main #stories .stories-content .stories-images .stories-card{
+    border-radius: 16px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+main #stories .stories-content .stories-images .large-card h3{
+    font-size: 24px;
+    line-height: 38.3px;
+    font-weight: bold;
+    margin: 58px 38px 47px;
+}
+
+main #stories .stories-content .stories-images .large-card p{
+    font-size: 15.34px;
+    line-height: 28.8px;
+    font-weight: 500;
+    margin: 0px 68px 38px 34px;
+    color: #666666;
+}
+
+main #stories .stories-content .stories-images .nrml-card h3{
+    margin: 38px 38px 28px;
+    font-size: 15.34px;
+    line-height: 28.8px;
+    font-weight: bold;
+}
+
+main #stories .stories-content button{
+    padding: 10px 61px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+}
+
+main #stories .stories-content .stories-images .stories-card .lrg-md{
+    position: absolute;
+    color: white;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.8px;
+    background-color: #3CD8E8;
+    padding: 14px 18px;
+    /* z-index: 1; */
+    border-radius: 50px;
+    top: 312px;
+    left: 38px;
+}
+
+main #stories .stories-content .stories-images .stories-card .grn-md{
+    position: absolute;
+    color: white;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.8px;
+    background-color: #95B226;
+    padding: 9px 18px;
+    /* z-index: 1; */
+    border-radius: 50px;
+    top: 157px;
+    left: 37px;
+}
+
+/* Stories section end */
+
+
+
+
+
+
 
 
 
@@ -315,15 +424,7 @@ main #curriculum .crclm-container .icons .fa-greater-than{
     display: inline-block;
     margin: 0 auto;
 }
-    /* banner section end */
-    /* header section end */
-
-    /* main section start */
-    /* Curruculum section start */
-
-    /* main{
-        margin: ;
-    } */
+/* banner section end */
 
     main #curriculum .crclm-container{
         padding: 30px 20px 0;
@@ -340,4 +441,54 @@ main #curriculum .crclm-container .icons .fa-greater-than{
     }
 
     /* Curriculum section end */
+
+    /* Stories section start */
+
+    main #stories{
+        padding: 28px 10px;
+        /* margin: 0; */
+    }
+
+    main #stories .stories-content h1{
+        font-size: 35px;
+    }
+
+    main #stories .stories-content{
+        width: 90%;
+        margin: 0 auto;
+        gap: 30px;
+    }
+    
+    main #stories .stories-content .stories-images{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+
+    main #stories .stories-content .stories-images .stories-card{
+        width: 100%;
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    main #stories .stories-content .stories-images .large-card{
+        width: 100%;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    main #stories .stories-content button{
+        display: block;
+    }
+
+    main #curriculum .crclm-container .icons{
+        visibility: hidden;
+    }
+
+    main #stories .stories-content .stories-images .stories-card .grn-md{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    /* Stories section end */
+
+    /*  */
 }

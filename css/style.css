@@ -224,24 +224,14 @@ main #curriculum .crclm-container .icons{
     gap:10px;
 }
 
-main #curriculum .crclm-container .icons .fa-less-than{
-    color: white;
+main #curriculum .crclm-container .icons button{
+    border: none;
+    background-color: transparent;
     background-color: orange;
     border-radius: 50%;
-    padding: 20px 40px 20px 20px;
-    /* text-align: center; */
-}
-
-main #curriculum .crclm-container .icons .fa-greater-than{
+    padding: 15px;
     color: white;
-    background-color: orange;
-    border-radius: 50%;
-    padding: 20px 40px 20px 20px;
-    text-align: center;
 }
-/* Curriculum section end */
-
-/* Stories Section start */
 
 main #stories{
     background-repeat: no-repeat;
@@ -344,6 +334,25 @@ main #stories .stories-content .stories-images .stories-card .grn-md{
 }
 
 /* Stories section end */
+
+/* main section end */
+
+/* footer section start */
+footer{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #01ACFD;
+    padding: 123px 140px 174px;
+}
+
+footer #ftr-content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer section end */
 
 
 
@@ -489,6 +498,9 @@ main #stories .stories-content .stories-images .stories-card .grn-md{
         padding: 5px 10px;
     }
     /* Stories section end */
+/* main section end */
 
-    /*  */
+    /* footer seciton start */
+
+    /* footer section end */
 }

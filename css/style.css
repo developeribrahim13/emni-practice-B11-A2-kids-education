@@ -303,6 +303,7 @@ main #stories .stories-content button{
     background-color: black;
     border: none;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 main #stories .stories-content .stories-images .stories-card .lrg-md{
@@ -343,14 +344,73 @@ footer{
     width: 100%;
     margin: 0 auto;
     background-color: #01ACFD;
-    padding: 123px 140px 174px;
+    padding: 150px 140px 130px;
 }
 
 footer #ftr-content{
     display: grid;
-    align-items: center;
+    grid-template-columns: 50% 25% 25%;
+    align-items: top;
     justify-content: center;
+    /* gap: */
 }
+
+footer #ftr-content .left-div .logo{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+footer #ftr-content .left-div .logo h1{
+    font-size: 42.14px;
+    line-height: 39.5px;
+    font-weight: bold;
+    color: white;
+}
+
+footer #ftr-content .left-div p{
+    max-width: 390px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+footer #ftr-content .mid-div h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer #ftr-content .mid-div ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+footer #ftr-content .mid-div ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.767);
+    text-decoration: none;
+}
+
+footer #ftr-content .right-div h3{
+    font-size: 26px;
+    line-height: 26px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+footer #ftr-content .right-div .links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
 
 /* footer section end */
 
@@ -501,6 +561,26 @@ footer #ftr-content{
 /* main section end */
 
     /* footer seciton start */
+    footer{
+        padding: 40px 2px;
+    }
 
+    footer #ftr-content{
+        grid-template-columns: 350px;
+        justify-items: start;
+        gap: 25px;
+    }
+
+    footer #ftr-content .left-div .logo{
+        margin-bottom: 5px;
+    }
+
+    footer #ftr-content .left-div .logo h1{
+        font-size: 35px;
+    }
+
+    footer #ftr-content .left-div p{
+        font-size: 16px;
+    }
     /* footer section end */
 }
